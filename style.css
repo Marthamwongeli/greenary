@@ -82,7 +82,7 @@
 }
 .products{
     display: flex;
-    gap: 50px;
+    gap: 20px;
     justify-content: center;
 }
 #button{
@@ -90,6 +90,7 @@
     background-color: green;
     width: 10%;
     border-radius: 10px;
+    padding: 20px;
     
     
 }
@@ -101,15 +102,45 @@
     height: 900px;
 
 }
-#imagee{
+#textblock{
+    text-align: center;
 
+}
+#imagee{
+    width: 800px;
+    height: 500px;
 }
 .images3{
     text-align: center;
 }
-.image{
+.product2{
     display: flex;
+    justify-content: center;
+    gap: 50px;
 }
+.view{
+    display: block;
+    justify-content: center;
+    background-image: url("images/bc.jpeg");
+    background-repeat: no-repeat;
+    /* width: 30%; */
+    background-size: 1590px;
+    margin-left: 50px;
+    
+
+}
+#growth{
+    text-align: center;
+    font-size: 30px;
+}
+.flowers{
+    display: flex;
+    justify-content: center;
+}
+#flo{
+    display: block;
+}
+
 .footer{
     display: flex;
     border: solid 0px;
