@@ -1,0 +1,135 @@
+.container{
+    overflow: hidden;
+    
+}
+.navbar{
+    display: flex;
+    gap: 40px;
+    background-color: hsl(120, 81%, 30%);
+    color: white;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 8px;
+}
+#topnav{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+#icons{
+    display: flex;
+    gap: 50px;
+    align-items: end;
+    
+}
+.content3{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    
+}
+#head{
+    display: flex;
+    gap: 60px;
+    font-size: 50px;
+}
+#tests{
+    display:block;
+    justify-content: space-between;
+    
+}
+#center{
+    text-align: center;
+}
+.navbar2{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+.products{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
+.product2{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
+.image{
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+#two{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+#textblock{
+    text-align: center;
+}
+#textblock2{
+    text-align: center;
+}
+.images3{
+    display: flex;
+    gap: 100px;
+    justify-content:center;
+}
+#image4{
+    display: flex;
+    
+}
+
+#sandals{
+    display: flex;
+    height: 100%;
+    
+}
+.footer{
+    display: flex;
+    gap:60px;
+    border: 1px;
+    
+    color: black;
+    height: 250px;
+    padding:35px ;
+    margin-left: 7%;
+    margin-right: 7%;
+
+}
+
+#end{
+    display: block;
+    gap: 60px;
+   
+}
+#shop{
+    display:block;
+    gap: 50px;
+   
+
+}
+#customer{
+    display: block;
+    gap: 50px;
+    
+}
+#help{
+    display: block;
+    gap:60px;
+    
+}
+.last{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    
+    
+}
+#icons{
+    display: flex;
+    gap: 50px;
+    
+}
