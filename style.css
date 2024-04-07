@@ -1,5 +1,6 @@
 .container{
     overflow: hidden;
+   
     
 }
 .navbar{
@@ -9,7 +10,7 @@
     color: white;
     border: solid 1px;
     border-radius: 8px;
-    padding: 20px;
+    padding: 25px;
     font-size: 20px;
 }
 #topnav{
@@ -17,42 +18,52 @@
     gap: 30px;
     justify-content: space-between;
     font-size: 20px;
+    margin: 20px;
 }
 #icons{
     display: flex;
     justify-content: space-evenly;
     gap: 50px;
     align-items: end;
+    margin-right: 50px;
     
 }
 .content1{
     display: flex;
-    justify-content:center;
-    gap: 70px;
+    /* justify-content:center; */
+    gap: 150px;
 }
 #head{
     font-size:10px;
     display: block;
-    background-image: url("images/pot2.jpeg");
-    background-repeat: no-repeat;
-    width: 30%;
-    background-size: 90%;
-    
-}
+}  
+#background{
+    position: relative;
+    width: 120%;
+    height: 600px;
+}   
+ #text1{
+    position: absolute;
+    top: 19%;
+    font-size: 50px;
+
+ }   
 .content3{
-    display: flex;
+    display: block;
+    gap: 90px;
 }
 #inspire{
-    display: block;
+    display: flex;
+    gap: 30px;
 
 }
 #orchid{
-    display: block;
+    display: flex;
+    gap: 80px;
 }
-
-#im{
-    width: 50%;
-    height: 20%;
+#image{
+    width: 100%;
+    height: 50%;
 
     
 }
@@ -62,33 +73,47 @@
     justify-content: center;
 }
 #tests{
-    display: block;
+    display: flex;
 }
 #house{
-    display: block;
+    display: flex;
 }
 #potted{
-    display: block;
+    display: flex;
 }
 #orchid{
-    display: block;
+    display: flex;
     gap: 50px;
 }
 .Features{
     display: flex;
     gap: 50px;
-    justify-content: center;
+   justify-content: center;
     
 }
 .products{
-    display: flex;
-    gap: 20px;
+    display: block;
+    gap: 50px;
     justify-content: center;
+    
+}
+.product1{
+    display: flex;
+    gap: 180px;
+
+}
+.product2{
+    display: flex;
+   gap: 180px;
+}
+#image2{
+    width: 200px;
+    height: 400px;
 }
 #button{
     border: solid 1px;
     background-color: green;
-    width: 10%;
+    width: 30%;
     border-radius: 10px;
     padding: 20px;
     
@@ -97,48 +122,89 @@
 #text{
     display: block;
 }
-#ima{
-    width: 790px;
-    height: 900px;
 
-}
 #textblock{
     text-align: center;
 
 }
 #imagee{
-    width: 800px;
-    height: 500px;
+    width: 500px;
+    height: 400px;
 }
-.images3{
+.testimonial{
     text-align: center;
 }
-.product2{
+#image1{
+    width: 500px;
+    height: 240px;
+}
+.product{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 90px;
 }
 .view{
     display: block;
     justify-content: center;
-    background-image: url("images/bc.jpeg");
+    background-image: url("images/ima13.jpeg");
     background-repeat: no-repeat;
-    /* width: 30%; */
-    background-size: 1590px;
+    width: 100%;
     margin-left: 50px;
     
 
 }
+#price{
+    position: relative;
+    width: 90%;
+    height: 500px;
+}
 #growth{
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
+    position: absolute;
+    top: 320%;
+    margin-left: 30%;
 }
 .flowers{
     display: flex;
     justify-content: center;
+    gap: 80px;
 }
 #flo{
     display: block;
+}
+.cactus{
+    display: block;
+}
+.specific{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.content5{
+        display: flex;
+        background-color:white;
+        height: 70%;
+        margin-left: 10%;
+        margin-right: 10%;
+        justify-content:space-evenly;
+        font-size: 15px;
+        align-items: center;
+        gap: 60px;
+}
+#title{
+    margin-left: 150px;
+}
+#flower2{
+    width: 150px;
+    height: 200px;
+}
+.reviews{
+    display: flex;
+    gap: 20px;
+}
+#textblock2{
+    text-align: center;
 }
 
 .footer{
@@ -177,4 +243,273 @@
 }
 .last{
     text-align: center;
+}
+@media all and (min-width:200px) and (max-width:1200px){
+    container{
+        overflow: hidden;
+        
+        
+    }
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: hsl(120, 81%, 30%);
+        color: white;
+        border: solid 1px;
+        border-radius: 2px;
+        padding: 10px;
+        font-size: 10px;
+        width: 300px;
+    }
+    #topnav{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+        font-size: 10px;
+        
+    }
+    #icons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 30px;
+        align-items: end;
+        margin-right: 30px;
+        
+    }
+    .content1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        gap: 10px;
+    }
+    #head{
+        display: block;
+    }  
+    #background{
+        position: relative;
+        width: 70%;
+        height: 400px;
+    }   
+     #text1{
+        position: absolute;
+        top: 19%;
+        font-size: 20px;
+    
+     }   
+    .content3{
+        display: block;
+        gap: 20px;
+    }
+    #inspire{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    
+    }
+    #orchid{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    #image{
+        width: 50%;
+        height: 50%;
+    
+        
+    }
+    #image4{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+    #tests{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #house{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #potted{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #orchid{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3px;
+    }
+    .Features{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1px;
+        justify-content: center;
+        margin-left: 10px;
+        
+    }
+    .products{
+        display: block;
+        gap: 10px;
+        justify-content: center;
+        
+    }
+    .product1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    
+    }
+    .product2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    #image2{
+        width: 100px;
+        height: 150px;
+    }
+    #button{
+        border: solid 1px;
+        background-color: green;
+        width: 20%;
+        border-radius: 5px;
+        padding: 15px;
+        
+        
+    }
+    #text{
+        display: block;
+    }
+    
+    #textblock{
+        text-align: center;
+    
+    }
+    #imagee{
+        width: 250px;
+        height: 300px;
+    }
+    .testimonial{
+        text-align: center;
+    }
+    #image1{
+        width: 200px;
+        height: 340px;
+    }
+    .product{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+    .view{
+        display: block;
+        justify-content: center;
+        background-image: url("images/ima13.jpeg");
+        background-repeat: no-repeat;
+        width: 80%;
+        margin-left: 20px;
+        
+    
+    }
+    #price{
+        position: relative;
+        width: 90%;
+        height: 500px;
+    }
+    #growth{
+        text-align: center;
+        font-size: 15px;
+        position: absolute;
+        top: 580%;
+        margin-left: 10%;
+    }
+    .flowers{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    #flo{
+        display: block;
+    }
+    .cactus{
+        display: block;
+        font-size: 15px;
+    }
+    .specific{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+    .content5{
+            display: flex;
+            flex-wrap: wrap;
+            background-color:white;
+            height: 0%;
+            margin-left: 1%;
+            margin-right: 0%;
+            justify-content:space-evenly;
+            font-size: 10px;
+            align-items: center;
+            gap: 10px;
+    }
+    #title{
+        margin-left:10px;
+    }
+    #flower2{
+        width: 250px;
+        height: 200px;
+    }
+    .reviews{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    #textblock2{
+        text-align: center;
+    }
+    
+    .footer{
+        display: flex;
+        gap:5%;
+        height: 200px;
+        margin-left: 10%;
+        margin-right: 10%;
+        justify-content:center;
+        font-size: 10px;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 10px;
+       
+    }
+    
+    #General{
+        display: block;
+        gap: 10px;
+       
+    }
+    #Services{
+        display:block;
+        gap: 10px;
+       
+    
+    }
+    #icons{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #Company{
+        display: block;
+        gap: 10px;
+        
+    }
+    .last{
+        text-align: center;
+        font-size: 10px;
+    }
 }
