@@ -245,13 +245,13 @@
 }
 #Company{
     display: block;
-    gap: 50px;
+    gap: 30px;
     
 }
 .last{
     text-align: center;
 }
-@media all and (min-width:200px) and (max-width:1200px){
+@media all and (min-width:200px) and (max-width:1290px){
     container{
         overflow: hidden;
         
